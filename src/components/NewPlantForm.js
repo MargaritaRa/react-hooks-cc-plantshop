@@ -15,6 +15,7 @@ function NewPlantForm({handleSubmit}) {
         <input type="text" name="name" placeholder="Plant name" onChange={event => setPlant({...newPlant, "name": event.target.value})}/>
         <input type="text" name="image" placeholder="Image URL" onChange={event => setPlant({...newPlant, "image": event.target.value})}/>
         <input type="number" name="price" step="0.01" placeholder="Price" onChange={event => setPlant({...newPlant, "price": event.target.value})}/>
+        <input type="number" name="price" step="0.01" placeholder="Price" onChange={event => setPlant({...newPlant, "price": event.target.value})}/>
         <button type="submit">Add Plant</button>
       </form>
     </div>
